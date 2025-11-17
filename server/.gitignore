@@ -1,0 +1,54 @@
+# -----------------------
+# Node.js Backend Ignore
+# -----------------------
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# Coverage reports
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# PM2
+pids
+*.pid
+*.pid.lock
+
+# Local database (if you ever create any)
+*.db
+
+# Socket.io optional cache
+.sockets/
+
+# Cloudinary temp
+cloudinary_temp/
